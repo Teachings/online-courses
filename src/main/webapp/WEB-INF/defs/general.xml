@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+	<definition name="common" template="/WEB-INF/layout/classic.jsp">
+		<put-attribute name="footer" value="/WEB-INF/layout/footer.jsp" />
+	</definition>
+
+	<definition name="index" extends="common">
+		<put-attribute name="title" value="Online Courses" />
+		<put-attribute name="body" value="/WEB-INF/jsp/index.jsp" />
+		<put-attribute name="current" value="index" />
+	</definition>
+
+	<definition name="courses" extends="common">
+		<put-attribute name="title" value="Courses" />
+		<put-attribute name="body" value="/WEB-INF/jsp/courses.jsp" />
+		<put-attribute name="current" value="courses" />
+	</definition>
+
+	<definition name="students" extends="common">
+		<put-attribute name="title" value="Students" />
+		<put-attribute name="body" value="/WEB-INF/jsp/students.jsp" />
+		<put-attribute name="current" value="students" />
+	</definition>
+
+	<definition name="teachers" extends="common">
+		<put-attribute name="title" value="Teachers" />
+		<put-attribute name="body" value="/WEB-INF/jsp/teachers.jsp" />
+		<put-attribute name="current" value="teachers" />
+	</definition>
+
+</tiles-definitions>
