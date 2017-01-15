@@ -7,7 +7,7 @@
 <h2>Teachers</h2>
 <p>List of all the teachers in the system</p>
 <div class="table-responsive">
-	<table class="table table-hover table-bordered table-stripped">
+	<table class="table table-hover table-bordered table-striped">
 		<thead>
 			<tr>
 				<th>#</th>
