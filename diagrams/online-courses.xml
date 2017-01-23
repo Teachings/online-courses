@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><entities>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE xml>
+<entities>
 	<entity>
 		<entity-name>com.mtcl.oc.entity.Course</entity-name>
 		<entity-width>120</entity-width>
